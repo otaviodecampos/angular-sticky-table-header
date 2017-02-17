@@ -169,7 +169,8 @@ angular
 
 					scope.observeTr();
 					scope.addEvents();
-
+					scope.resetClone();
+					
 				},
 
 				off: function () {

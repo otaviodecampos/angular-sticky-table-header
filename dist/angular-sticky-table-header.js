@@ -119,6 +119,7 @@ angular.module('turn/stickyTableHeader', ['watchDom']).value('stickyTableHeaderO
           on: function () {
             scope.observeTr();
             scope.addEvents();
+			scope.resetClone();
           },
           off: function () {
             scope.mutationObserver();
